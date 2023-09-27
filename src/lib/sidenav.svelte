@@ -16,7 +16,4 @@
   section {
     width: 300px;
   }
-  .fixed {
-    display: fixed;
-  }
 </style>

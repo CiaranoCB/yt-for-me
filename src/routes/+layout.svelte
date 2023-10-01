@@ -16,8 +16,6 @@
     <section class="flex flex-nowrap">
         <Sidenav show={show} {isMobile}/>
         <main>
-            {isMobile}
-            {clientWidth}
             <slot />
         </main>
     </section>

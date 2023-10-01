@@ -17,17 +17,19 @@
     title = "BIG FOOT SIGHTINGS!!!"
     thumbnail = "Feet and Soil.jpeg"
     avatar = "photo2.jpeg"
-    creator = "Jonny jpeg"
+    creator = "Johnny Boi098"
     views = ""
     loading={loading}
+    id={1}
     />
     <Thumb
     title = "Grass and McDonald Sprite River!"
     thumbnail = "Grass and Water.jpeg"
     avatar = "photo2.jpeg"
-    creator = "Jonny jpeg"
+    creator = "NoFurUser123"
     views = ""
     loading={loading}
+    id={2}
     />
     <Thumb />
     <Thumb />

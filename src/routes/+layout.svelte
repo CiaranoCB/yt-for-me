@@ -13,10 +13,14 @@
 
 <div bind:clientWidth={clientWidth} class="min-h-screen bg-slate-800 text-slate-100">
     <Nav on:hamburger={() => showSideNav = !showSideNav }/>
-    <section class="flex flex-nowrap">
-        <Sidenav show={show} {isMobile}/>
-        <main>
+    <Sidenav show={show} />
+    <main class:phantom={!isMobile && showSideNav}>
             <slot />
-        </main>
-    </section>
+    </main>
 </div>
+
+<style>
+    .phantom {
+        margin-left: 300px;
+    }
+</style>

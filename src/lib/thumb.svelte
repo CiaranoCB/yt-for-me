@@ -31,7 +31,7 @@
 </script>
 
 <section>
-	<a class="bind:thumbnail bg-slate-600 m-4" 
+	<a class="thumbnail bg-slate-600 m-4" 
     href="/" 
     on:mouseover={hover} 
     on:focus={hover} 
@@ -60,9 +60,11 @@
 </section>
 
 <style>
+	img,
 	.thumbnail {
 		width: 320px;
 		height: 180px;
+		display: inline-block;
 	}
 
 	.avatar {

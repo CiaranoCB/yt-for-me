@@ -35,6 +35,8 @@
 <style>
   nav {
       display: flex;
+      position: relative;
+      z-index: 51;
   }
   .yt-fixed {
       width: 250px;
